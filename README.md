@@ -1,6 +1,6 @@
 ## 踩坑记录
 
-- 启动项目，无比参考`CONTRIBUTING.md`.
+- 启动项目，务必参考`CONTRIBUTING.md`.
 - 如果根目录下，执行yarn报错：
   - 第一步翻墙，不然会出现`⚠ connect ECONNREFUSED 151.101.228.133:443`的报错
   - 确保yarn是最新版本（我目前是1.22.0，可以尝试`curl -o- -L https://yarnpkg.com/install.sh
@@ -18,4 +18,4 @@ total 29624
 -rw-r--r--  1 yangxiayan  staff   5.3M  2  8 17:56 libvips-8.7.4-darwin-x64.tar.gz
 -rw-r--r--  1 yangxiayan  staff   8.8M  2 22 19:08 libvips-8.8.1-darwin-x64.tar.gz
   ```
-  成功后，可以执行 `yarn start`启动项目，或者`yarn start:fast`
+  yarn成功后，可以执行 `yarn start`启动项目，或者`yarn start:fast`

@@ -30,6 +30,7 @@
     ]
   },
   "scripts": {
+    "psmd": "git add . && git commit -m 'docs: update md' && git push",
     "build": "cross-env NODE_OPTIONS=\"--max-old-space-size=4096\" yarn build:deps && yarn build:prod",
     "build:clean": "lerna run build:clean --scope app --scope homepage && rimraf www",
     "build:common": "lerna run build:dev --scope @codesandbox/common --stream",
